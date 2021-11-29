@@ -1,5 +1,5 @@
 Vagrant.configure("2") do |config|
-    config.vm.box = "generic/ubuntu1804"
+    config.vm.box = "chenhan/ubuntu-desktop-20.04"
 
     config.vm.define 'ubuntu'
 
